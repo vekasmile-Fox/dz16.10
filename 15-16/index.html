@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+   <!--начало таблицы
+    thead-table head
+    tr-table row
+    th-tablehead name названия столбцов
+    td- table data-содержимое ячейки таблицы
+    --> 
+    <table>
+        <thead>
+            <tr> <!--первая строка название столбцов-->
+                <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th>Заголовок1</th>
+                <th>Заголовок2</th>
+                <th>Заголовок3</th>
+                   
+            </tr>
+
+        </thead>
+        <tbody><!--Содержимое таблицы-->
+            <tr>
+                <td><b>строка 1</b></td>
+                <td>23</td>
+                <td>43</td>
+                <td>123</td>
+            </tr>
+            <tr>
+                <td><b>строка 2</b></td>
+                <td>24</td>
+                <td>44</td>
+                <td>124</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="iksweb">
+		<tr>
+			<td></td>
+			<td rowspan="2">Заголовок 1</td>
+			<td rowspan="2">Заголовок 2</td>
+			<td rowspan="2">Заголовок 3</td>
+			<td colspan="2">Заголовок 4</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Подзаголовок 1</td>
+			<td>Подзаголовок 2</td>
+		</tr>
+		<tr>
+			<td>Строка 1</td>
+			<td>23</td>
+			<td>43</td>
+			<td>123</td>
+			<td>1</td>
+			<td>11</td>
+		</tr>
+		<tr>
+			<td>Строка 2</td>
+			<td>24</td>
+			<td>44</td>
+			<td>124</td>
+			<td>2</td>
+			<td>12</td>
+		</tr>
+		<tr>
+			<td>Строка 3</td>
+			<td>25</td>
+			<td>45</td>
+			<td>125</td>
+			<td>3</td>
+			<td>13</td>
+		</tr>
+        <!--tr*3>td2 формула для строк и столбцов-->
+</table>
+</body>
+</html>

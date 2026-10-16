@@ -1,0 +1,23 @@
+table{
+    text-align: center;
+}
+/*Обращаюсь к классу iksweb который лежит в классе table*/
+table.iksweb{
+	width: 100%;
+	border-collapse:collapse;/* тонкая линия*/
+	border-spacing:0;/*чтобы линия была одна*/
+	height: auto;
+}
+table.iksweb,table.iksweb td, table.iksweb th {
+	border: 1px solid #595959;
+}
+table.iksweb td,table.iksweb th {
+	padding: 3px;/* внутренний отступ*/
+	width: 30px;
+	height: 35px;
+}
+table.iksweb th {
+	    background: #4e6982;
+	color: #fff; 
+	font-weight: normal;/* жирный или тонкий текст*/
+}
